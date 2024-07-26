@@ -75,7 +75,7 @@ let arr;
         
     })
       
-      .addAnswer(
+     /* .addAnswer(
        
         [ '🙌 Por favor envia el codigo del producto para brindarte mas detalles?', 'si desea regresar al inicio escribe *menu* '],
         {capture:true},
@@ -97,8 +97,8 @@ let arr;
         return  await flowDynamic([res1,res2,res3]);
          
         })
-
-        .addAnswer(
+*/
+  /*      .addAnswer(
        
           [ '🙌 Si estas interesado en inmueble envia la palabra *Si* de lo contrario envia la palabra *No*? '],
           {capture:true},
@@ -130,8 +130,8 @@ let arr;
              
             })
      
-  
-  
+  */
+  /*
   const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
       [
           '🙌 Aquí encontras un ejemplo rapido',
@@ -162,6 +162,7 @@ let arr;
       null,
       [flowSecundario]
   )
+      */
   
   const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
       .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
@@ -176,7 +177,7 @@ let arr;
           ],
           null,
           null,
-          [flowDocs, flowGracias, flowTuto, flowDiscord]
+      [] //   [flowDocs, flowGracias, flowTuto, flowDiscord]
           
       )
 
