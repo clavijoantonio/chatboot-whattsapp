@@ -163,6 +163,29 @@ let arr;
       [flowSecundario]
   )
       */
+
+  const Ciudadnfo = addKeyword(['Medellin','Medellín','Bogota','Bogotá']).addAnswer(
+    ['📄 Buscando un Asesor...  Un momento por favor'],
+    null,
+    null,
+    []
+  )
+
+  const flowInfo = addKeyword(['Info', 'info'])
+  .addAnswer('🙌 Claro que sí, cuéntame en qué inmueble estás interesado, ¿en qué ubicacion lo requiere?')
+  .addAnswer(
+   ['📄 Medellín \n 📄 Bogotá'],
+   {capture:true},
+   null,
+ //  async (ctx,{flowDynamic, endflow}) =>{  console.log(ctx.body) },
+  
+    //if(ctx.body=='No'){
+    //  return endflow([Ciudadnfo]);
+   // }
+    //},
+    [Ciudadnfo]
+)
+
   
   const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
       .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
@@ -177,8 +200,8 @@ let arr;
           ],
           null,
           null,
-      [] //   [flowDocs, flowGracias, flowTuto, flowDiscord]
-          
+      // []   [flowDocs, flowGracias, flowTuto, flowDiscord]
+      [flowInfo]
       )
 
      
