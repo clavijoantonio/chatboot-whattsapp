@@ -1,0 +1,156 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573162953628@s.whatsapp.net',
+    fromMe: false,
+    id: 'AC08097044427348F1637512D68B279F',
+    participant: undefined
+  },
+  messageTimestamp: 1734567134,
+  pushName: 'John System Engineer 💻💻',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '573162953628'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e48ed487-c196-4551-9060-f86cd61d8385',
+  keyword: 'key_3f1f0803-4337-45c0-acd1-af0d4c18637a',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '4100e3d288f25905b45ffe3493a1e924'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3b463d2f-ce87-4385-8c07-9ad3b7cea54b',
+  keyword: 'ans_e48ed487-c196-4551-9060-f86cd61d8385',
+  answer: 'te comparto los siguientes links de interes sobre nuestra inmobiliaria\n' +
+    '👉 *Info* para ver la informacion del inmueble\n' +
+    '👉 *Dis*  para ver los inmuebles disponibles\n' +
+    '👉 *Nos*  para ver la infomacion de nuestra empresa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'cd3fb186f8dda42b0db760cd2ed818d5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573162953628@s.whatsapp.net',
+    fromMe: false,
+    id: 'B7C515EBA40D9E6D5589BC06C1038E6F',
+    participant: undefined
+  },
+  messageTimestamp: 1734567142,
+  pushName: 'John System Engineer 💻💻',
+  broadcast: false,
+  message: Message {
+    conversation: 'Info',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Info',
+  from: '573162953628'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_070985e3-cc57-46d9-be0a-34d844d9dd31',
+  keyword: 'key_f821a544-26ff-4168-8881-27e61a3fd43f',
+  answer: '🙌 Claro que sí, cuéntame en qué inmueble estás interesado, ¿en qué ubicacion lo requiere?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '155c8fef56856f7fd00618e528f98ea6'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ea165e8a-96c4-4832-97e0-462e63245e40',
+  keyword: 'ans_070985e3-cc57-46d9-be0a-34d844d9dd31',
+  answer: '📄 Medellín \n 📄 Bogotá',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'fcda99a8bed88adf4371a5ca6472b7d3'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573162953628@s.whatsapp.net',
+    fromMe: false,
+    id: 'EC689E9BF5F186824A0F1CB490D70C58',
+    participant: undefined
+  },
+  messageTimestamp: 1734567153,
+  pushName: 'John System Engineer 💻💻',
+  broadcast: false,
+  message: Message {
+    conversation: 'Medellín',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Medellín',
+  from: '573162953628'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2e0a518a-656b-4c48-9dee-a4a729dd7c5d',
+  keyword: 'key_ca4aecb2-1a45-471b-9b02-a839b08f1942',
+  answer: '📄 Buscando un Asesor...  Un momento por favor',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '9694515752cdc007981a681241e667f7'
+}

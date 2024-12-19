@@ -1,0 +1,33 @@
+{
+    "name": "base-bailey-json",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "prestart": "npx eslint . --no-ignore",
+        "pre-copy": "cd .. && npm run  copy.lib base-baileys-json",
+        "start": "node app2.js",
+        "dev": "nodemon servidor.js",
+        "debug:dev-1": "cross-env NODE_ENV=dev nodemon --exec ts-node app.js --trace-deprecation",
+        "debug:prod": "cross-env NODE_ENV=prod nodemon --exec ts-node app.js --trace-deprecation",
+        "debug:stage": "cross-env NODE_ENV=stg nodemon --exec ts-node app.js --trace-deprecation"
+    },
+    "keywords": [],
+    "dependencies": {
+        "@bot-whatsapp/bot": "latest",
+        "@bot-whatsapp/cli": "latest",
+        "@bot-whatsapp/database": "latest",
+        "@bot-whatsapp/provider": "latest",
+        "@bot-whatsapp/portal": "latest",
+        "mime-types": "2.1.35",
+        "@whiskeysockets/baileys": "6.5.0",
+        "wa-sticker-formatter": "4.4.4",
+        "cache-manager": "5.2.4"
+    },
+    "devDependencies": {
+        "eslint-plugin-bot-whatsapp": "latest",
+        "eslint": "^8.52.0"
+    },
+    "author": "",
+    "license": "ISC"
+}
